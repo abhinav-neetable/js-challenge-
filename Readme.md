@@ -7,6 +7,7 @@ For the test cases, the range will be between 1 and 18 and the input will always
 
 
 #Solution
+```
 FirstFactorial=(num)=> { 
 if (num === 0 || num === 1)
     return 1;
@@ -18,3 +19,4 @@ if (num === 0 || num === 1)
 }
    
 console.log(FirstFactorial(readline()));
+```
